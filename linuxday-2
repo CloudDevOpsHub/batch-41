@@ -1,0 +1,45 @@
+  1  ls
+    2  cd /
+    3  ls
+    4  pwd
+    5  cd tmp/
+    6  ls
+    7  touch file
+    8  ls
+    9  cat file
+   10  mkdir directory
+   11  ls
+   12  vi file
+   13  cat file 
+   14  ls
+   15  cp file file2
+   16  ;s
+   17  ls
+   18  mv file2 newfile
+   19  ls
+   20  ls -l
+   21  echo "my first eco commands"
+   22  date
+   23  who
+   24  history
+   25  vi shubham.sh
+   26  cat shubham.sh 
+   27  ./shubham.sh
+   28  ls -l
+   29  chmod +x shubham.sh
+   30  ls -l
+   31  ./shubham.sh
+   32  top
+   33  htop
+   34  du
+   35  uptime
+   36  free
+   37  free -h
+   38  df -h
+   39  ps
+   40  vi monit.sh
+   41  ./monit.sh
+   42  chmod +x monit.sh
+   43  clear
+   44  ./monit.sh
+   45  history
