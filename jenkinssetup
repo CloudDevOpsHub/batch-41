@@ -16,8 +16,9 @@ $  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
   https://pkg.jenkins.io/debian binary/ | sudo tee \
   /etc/apt/sources.list.d/jenkins.list > /dev/null
 Step 4: Install Jenkins
-$ sudo apt update
-$ sudo apt install jenkins
+
+ sudo apt update && sudo apt install jenkins -y
+
 Step 5: Verify installation
 $ systemctl status jenkins
 Step 6: Once Jenkins is up and running, access it from the
