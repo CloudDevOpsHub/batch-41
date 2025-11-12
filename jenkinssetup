@@ -29,3 +29,29 @@ Start, Stop & Restart Jenkins
 $ sudo service jenkins restart
 $ sudo service jenkins stop
 $ sudo service jenkins start
+
+
+
+Pipeline 
+
+
+pipeline {
+agent any
+    stages {
+        stage('Git batch41 code clone') {
+            steps {
+            git branch: 'main', url: 'https://github.com/DevSecOpsG/helloworldsimplejavaprogram'
+            }
+        }
+        stage('Build of cloudprogram'){
+            steps{
+            sh 'javac helloworld.java'
+            }
+        }
+        stage('Run'){
+            steps{
+            sh 'java Simple'
+            }
+        }
+    }
+}
