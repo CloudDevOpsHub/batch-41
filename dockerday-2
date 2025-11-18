@@ -1,0 +1,43 @@
+ 1  ls
+    2  curl -fsSL https://get.docker.com -o install-docker.sh
+    3  ls
+    4  sudo sh install-docker.sh
+    5  docker -v
+    6  docker run -it ubuntu
+    7  docker images
+    8  docker ps
+    9  docker ps -a
+   10  docker start 1fc9a91695d9
+   11  docker ps
+   12  docker exec -it  1fc9a91695d9 /bin/bash
+   13  history
+   14  docker images
+   15  docker ps
+   16  docker rm 1fc9a91695d9
+   17  docker rm -f 1fc9a91695d9
+   18  docker images
+   19  docker rmi c35e29c94501
+   20  docker pull nginx
+   21  docker images
+   22  docker run nginx
+   23  docker run -p 80:80 nginx
+   24  docker ps -a
+   25  mkdir -p ~/docker-nginx/html
+   26  cd docker-nginx/
+   27  ls
+   28  cd html/
+   29  ls
+   30  vi index.html
+   31  cat index.html 
+   32  docker ps
+   33  docker run --name docker-nginx -p 80:80 -d -v ~/docker-nginx/html:/usr/share/nginx/html nginx
+   34  ls
+   35  vi index.html 
+   36  history
+   37  time docker run --rm hello-world
+   38  
+   39  docker run --rm ubuntu ls / 
+   40  docker run -d alpine sleep 1000
+   41  docker images
+   42  docker stats
+   43  history
