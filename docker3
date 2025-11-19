@@ -1,0 +1,32 @@
+ 1  apt-get update && apt install docker.io -y
+    2  docker -version
+    3  docker --v
+    4  docker -v
+    5  docker run -it -d -p 8080:8080 jenkins/jenkins:latest
+    6  docker ps
+    7  cat /var/jenkins_home/secrets/initialAdminPassword
+
+
+FROM ubuntu
+MAINTAINER clouddevopshub@gmail.com
+RUN apt-get update
+RUN apt-get install nginx -y
+CMD ["echo","Image created"]
+
+      
+
+      
+    8  vi Dockerfile
+    9  cat Dockerfile 
+   10  ls
+   11  docker build -t mynginxbatch21 .
+   12  docker images
+   13  docker login 
+   14  docker ps
+   15  docker images
+   16  history
+   17  docker images
+   18  docker tag 4a5787dc8400 vikas4cloud/mynginxbatch21:latest
+   19  docker images
+   20  docker push vikas4cloud/mynginxbatch21
+   21  history
