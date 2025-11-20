@@ -1,0 +1,121 @@
+
+   1  docker images
+    2  docker run -it -d -p 8080:8080 jenkins/jenkins:latest
+    3  docker images
+    4  docker -exec jenkins/jenkins /bin/bash
+    5  docker exec -it efd32893e3ba /bin/bash
+    6  docker images
+    7  docker exe -it efd32893e3ba /bin/bash
+    8  docker start jenkins/jenkins
+    9  systectl status jenkins
+   10  systemctl status jenkins
+   11  ip:8080
+   12  docker exec -it efd32893e3ba /bin/bash
+   13  docker images
+   14  docker exec -it jenkins/jenkins /bin/bash
+   15  docker start jenkins/jenkins
+   16  ps -a
+   17  sudo -i
+   18  docker pull jenkins
+   19  docker start jenkins
+   20  docker run -it -d -p 8085:8080 jenkins/jenkins:latest
+   21  docker images
+   22  docker exec jenkins-cont cat /var/jenkins_home/secrets/initialAdminPassword
+   23  docker images
+   24  docker exec -it efd32893e3ba /bin/bash
+   25  docker ps
+   26  docker exec -it 07054c30ee76 /bin/bash  
+   27  docker exec 07054c30ee76 cat /var/jenkins_home/secrets/initialAdminPassword
+   28  docker build -t mybuild19nov25 
+   29  docker exec 07054c30ee76
+   30  docker exec 07054c30ee76 /bin/bash/
+   31  docker images
+   32  docker pull sairamchettiar/sairam-41
+   33  docker ps -a
+   34  docker exec -it 07054c30ee76 /bin/bash  
+   35  ps
+   36  ps -a
+   37  systemctl status jenkins
+   38  docker -v
+   39  java -v
+   40  docker exec -it 07054c30ee76
+   41  docker exec -it 07054c30ee76 /bin/bash  
+   42  docker images
+   43  docker run 
+   44  docker run openjdk-21-jre
+   45  docker run --help
+   46  sudo apt install openjdk-21-jdk -y
+   47  java -v
+   48  java --v
+   49  java --version
+   50  sudo apt update
+   51  java --version
+   52  curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+   53  echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian binary/" | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/nul
+   54  docker run jenkins/jenkins:jdk21
+   55  docker pull jenkins/jenkins:jdk21
+   56  docker ps -a
+   57  docker rm e0053fd7c1a5 -f
+   58  docker rm e0053fd7c1a5
+   59  docker rm e5ae8e30b12d -f
+   60  docker rm 42d2a7d138f6 -f
+   61  docker rm a2637d7cb5de -f
+   62  docker images
+   63  docker rm 
+   64  docker rm sairamchettiar/sairam-41 -f
+   65  docker rm 27663a41ef2b -f
+   66  docker ps -a
+   67  docker rm 8a8d0f36e149 -f
+   68  docker images
+   69  docker ps -a
+   70  docker ps
+   71  vi Dockerfile
+   72  cat Dockerfile
+   73  docker build -t mybuild19nov25 .
+   74  docker images
+   75  docker login
+   76  docker ps
+   77  docker images
+   78  docker tag 3afd80dd2a9f tsmohanv6/mybuild19nov25:latest
+   79  docker images
+   80  docker push
+   81  docker push tsmohanv6/mybuild19nov25
+   82  docker tag 3afd80dd2a9f mohanvamshi06/mybuild19nov25:latest
+   83  docker images
+   84  docker push mohanvamshi06/mybuild19nov25
+   85  docker pull 
+   86  docker push mohanvamshi06/mybuild19nov2501
+   87  docker pull 
+   88  docker pull mohanvamshi06/mybuild19nov25
+   89  docker images
+   90  docker rm tsmohanv6/mybuild19nov25 -f
+   91  docker ps
+   92  docker mages
+   93  docker images
+
+
+   95  docker ps
+   96  docker images
+   97  docker run -it ubuntu 
+   98  docer ps
+   99  docker ps
+  100  docker images
+  101  docker start ubuntu
+  102  docker ps -a
+  103  docker start 270e883c6eb4
+  104  docker ps
+  105  docker commit 270e883c6eb4 purviimage
+  106  docker images
+  107  docker save purviimage > achal.tar
+  Python 
+  108  ls
+  109  docker ps
+  110  docker logs 270e883c6eb4
+  111  docker logs 270e883c6eb4 | grep error 
+  112  docker stats
+  113  docker images'
+  114  docker images
+  115  docker system df
+  116  docker system prune
+  117  docker system df
+  118  history
