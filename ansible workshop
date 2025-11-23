@@ -139,3 +139,12 @@ vi  installnginx.yaml
   tasks:
     - name: ensure nginx is at the latest version
       apt: name=nginx state=latest
+
+
+----------------------
+
+
+Step 18 :   Run ansible playbook
+
+ansible-playbook installnginx.yaml 
+ansible-playbook -i  host installnginx.yaml      
