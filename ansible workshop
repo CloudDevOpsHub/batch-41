@@ -108,3 +108,11 @@ generate the ssh key from the ssh-keygen command
 ssh-keygen
 provide 3 times enter    (1 location verification + 2 time for passwd )
 
+
+Part 7 copy the generated ssh keys from ansible_master to target machine and check the connectivity
+
+Step 15 Copy the generated key from ansible_master to remote target 
+
+ssh-copy-id root@172.17.0.3
+yes
+
