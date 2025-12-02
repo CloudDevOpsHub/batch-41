@@ -94,4 +94,14 @@ Step 14 verify as you are able to ping target machine from ansible_master
 
 Ping  172.17.0.3
 
+--------------------
+
+go back to master machine
+
+Step 15 
+generate the ssh key from the ssh-keygen command 
+
+ssh-keygen
+provide 3 times enter    (1 location verification + 2 time for passwd )
+
 
