@@ -46,6 +46,17 @@ Part-4 AI Gemini Setup
 
 Part-5 Connect AWS ATS application with GCP Gemini AI
 
+Part-5 Connect AWS ATS application with GCP Gemini AI
+ 
+1.Add the API Key to Streamlit Secrets
+mkdir -p .streamlit
+vi .streamlit/secrets.toml
+
+GOOGLE_API_KEY = "your-api-key-here"
+
+2.Run the Streamlit App
+    streamlit run app.py --server.port 8501 --server.enableCORS false
+
 Part-6 Test the Application
 
 Part-7 Review own Resume on own Enviroment like multi Cloud + DevOps
