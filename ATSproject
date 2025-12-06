@@ -26,7 +26,6 @@ Part-3 Set up the ATS Application Environment
 
 Step-1 Download Code
 git clone https://github.com/CloudDevOpsHub/Application-Tracking-System.git
-or git clone https://github.com/Aditya190803/Application-Tracking-System.git
 
 Step-2  cd Application-Tracking-System
 
