@@ -1,0 +1,35 @@
+
+Part 1 AWS Ubuntu EC2 instance:  atsserver
+Python 
+
+Part-2  ATS Python Application Installation 
+
+
+Part 1 AWS Ubuntu EC2 instance:
+Launch a new EC2 instance
+Ubuntu Server 20.04 LTS
+Allowing essential port i.e 8501
+
+Part-2 Application installation 
+Step-1 update & Install Python 3.7+ and pip
+sudo apt update && sudo apt install python3 python3-pip python3-venv -y
+Step-2  Install Git  sudo apt install git -y
+Step-3 Install Poppler (for pdf2image)
+Step-4 sudo apt install poppler-utils -y
+
+
+
+
+Part-3 Set up the ATS Application Environment
+
+Part-4 AI Gemini Setup 
+
+Part-5 Connect AWS ATS application with GCP Gemini AI
+
+Part-6 Test the Application
+
+Part-7 Review own Resume on own Enviroment like multi Cloud + DevOps
+ with AI engineer for Lakshya 40 LPA
+
+
+
