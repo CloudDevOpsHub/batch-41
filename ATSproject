@@ -22,6 +22,27 @@ sudo apt install poppler-utils -y
 
 Part-3 Set up the ATS Application Environment
 
+
+
+Step-1 Download Code
+git clone https://github.com/CloudDevOpsHub/Application-Tracking-System.git
+or git clone https://github.com/Aditya190803/Application-Tracking-System.git
+
+Step-2  cd Application-Tracking-System
+
+Step-3 Set Up a Virtual Environment
+ python3 -m venv venv
+ source venv/bin/activate
+
+Step-4 Install Project Dependencies
+ pip install --upgrade pip
+ pip install -r requirements.txt
+ pip install google-generativeai
+
+
+
+
+
 Part-4 AI Gemini Setup 
 
 Part-5 Connect AWS ATS application with GCP Gemini AI
