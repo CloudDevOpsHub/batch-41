@@ -23,3 +23,19 @@ RUN usermod -aG docker jenkins
 Now build the image 
  
 docker image build -t jenkins-docker .
+
+
+Run the Jenkins Image
+ 
+       docker images
+       docker ps
+       docker container run -d -p 8080:8080 -v   /var/run/docker.sock:/var/run/docker.sock jenkins-docker
+
+make sure port 8080 open in firewall 
+
+     docker exec -it <containerID> bin/bash
+
+     cat /var/jenkins_home/secrets/initialAdminPassword
+
+setup jenkins from the UI...
+like admin pwd and all required configuration..
