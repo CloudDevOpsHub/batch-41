@@ -22,5 +22,14 @@ Step-4 Install Project Dependencies
  pip install -r requirements.txt
  pip install google-generativeai
 
+Part-5 Connect AWS ATS application with GCP Gemini AI
+ 
+1.Add the API Key to Streamlit Secrets
+mkdir -p .streamlit
+vi .streamlit/secrets.toml
 
+GOOGLE_API_KEY = "AIzaSyDNvBdigoOtxLff33-M9YZ8TJ337qd1Pwo"
+
+2.Run the Streamlit App
+    streamlit run app.py --server.port 8501 --server.enableCORS false
 
